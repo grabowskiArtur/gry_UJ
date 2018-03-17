@@ -7,18 +7,18 @@ func _ready():
 	pass
 
 func _process(delta):
-	motion += globals.gravity * 100
+	#motion += globals.gravity * 100
 	
 	if( Input.is_key_pressed(KEY_LEFT) ):  
-		motion +=Vector2(-100,0)
+		self.move_and_collide(Vector2(-5,0))
 	if( Input.is_key_pressed(KEY_RIGHT) ):   
-		motion +=Vector2(100,0)
+		self.move_and_collide(Vector2(5,0))
 	if( Input.is_action_just_released("ui_accept") ):  
 		#var input = Input
 	
 		self.rotate(PI)
 		print("rotate")
-	
-	move_and_slide(motion)
+		
+	move_and_slide(globals.gravity*500)
 	pass
 
