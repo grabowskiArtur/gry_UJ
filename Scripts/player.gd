@@ -1,8 +1,5 @@
 extends KinematicBody2D
-
-# class member variables go here, for example:
-# var a = 2
-# var b = "textvar"
+var motion = Vector2()
 
 func _ready():
 	# Called every time the node is added to the scene.
@@ -10,14 +7,18 @@ func _ready():
 	pass
 
 func _process(delta):
-#	position += Vector2( 1.0, 0.0 )
-	if( Input.is_key_pressed(KEY_UP) ):  
-		self.move_and_collide(Vector2(0,-10))
+	motion += globals.gravity * 100
+	
 	if( Input.is_key_pressed(KEY_LEFT) ):  
-		self.move_and_collide(Vector2(-10,0))
-	if( Input.is_key_pressed(KEY_RIGHT) ):  
-		self.move_and_collide(Vector2(10,0))
-	if( Input.is_key_pressed(KEY_DOWN) ):  
-		self.move_and_collide(Vector2(0,10))
+		motion +=Vector2(-100,0)
+	if( Input.is_key_pressed(KEY_RIGHT) ):   
+		motion +=Vector2(100,0)
+	if( Input.is_action_just_released("ui_accept") ):  
+		#var input = Input
+	
+		self.rotate(PI)
+		print("rotate")
+	
+	move_and_slide(motion)
 	pass
 
