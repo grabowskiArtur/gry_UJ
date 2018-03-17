@@ -18,6 +18,9 @@ extents = Vector2( 1000, 10 )
 [node name="main" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="player" type="KinematicBody2D" parent="." index="0"]
 
@@ -39,10 +42,11 @@ __meta__ = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player" index="1"]
 
 shape = SubResource( 1 )
+_sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
 
 [node name="floor" type="StaticBody2D" parent="." index="1"]
 
-position = Vector2( 459.212, 506.446 )
+position = Vector2( 460.882, 506.446 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -67,16 +71,43 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="box" parent="." index="2" instance=ExtResource( 4 )]
+[node name="floor2" type="StaticBody2D" parent="." index="2"]
 
-position = Vector2( 121.722, 457.876 )
+position = Vector2( 469.233, 137.336 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 0.0
+bounce = 1.0
 
-[node name="box2" parent="." index="3" instance=ExtResource( 4 )]
+[node name="Sprite" type="Sprite" parent="floor2" index="0"]
 
-position = Vector2( 192.931, 461.56 )
+scale = Vector2( 20, 0.3 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
 
-[node name="box3" parent="." index="4" instance=ExtResource( 4 )]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="floor2" index="1"]
 
-position = Vector2( 156.099, 382.984 )
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="box" parent="." index="3" instance=ExtResource( 4 )]
+
+position = Vector2( -324.217, 153.903 )
+
+[node name="box2" parent="." index="4" instance=ExtResource( 4 )]
+
+position = Vector2( -293.092, 246.106 )
+
+[node name="box3" parent="." index="5" instance=ExtResource( 4 )]
+
+position = Vector2( -218.022, 150.829 )
 
 
