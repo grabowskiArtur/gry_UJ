@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scripts/main.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/player.gd" type="Script" id=2]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://scenes/box.tscn" type="PackedScene" id=4]
+[ext_resource path="res://GAME_OVER.png" type="Texture" id=5]
 
 [sub_resource type="CircleShape2D" id=1]
 
@@ -24,7 +25,7 @@ __meta__ = {
 
 [node name="player" type="KinematicBody2D" parent="." index="0"]
 
-position = Vector2( 776.107, 454.193 )
+position = Vector2( 820.305, 371.935 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -43,6 +44,31 @@ __meta__ = {
 
 shape = SubResource( 1 )
 _sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
+
+[node name="Camera2D" type="Camera2D" parent="player" index="2"]
+
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 1, 1 )
+limit_left = -10000000
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = false
+smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
 
 [node name="floor" type="StaticBody2D" parent="." index="1"]
 
@@ -100,14 +126,28 @@ __meta__ = {
 
 [node name="box" parent="." index="3" instance=ExtResource( 4 )]
 
-position = Vector2( -324.217, 153.903 )
+position = Vector2( 55.7716, 349.703 )
 
 [node name="box2" parent="." index="4" instance=ExtResource( 4 )]
 
-position = Vector2( -293.092, 246.106 )
+position = Vector2( 91.9478, 269.814 )
 
 [node name="box3" parent="." index="5" instance=ExtResource( 4 )]
 
-position = Vector2( -218.022, 150.829 )
+position = Vector2( 171.837, 295.439 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." index="6"]
+
+layer = 1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+
+[node name="GAME_OVER" type="Sprite" parent="CanvasLayer" index="0"]
+
+visible = false
+position = Vector2( 513.486, 305.307 )
+texture = ExtResource( 5 )
 
 
