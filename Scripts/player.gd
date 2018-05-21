@@ -19,13 +19,16 @@ func _process(delta):
 		self.rotate(PI)
 		print("rotate")
 		
-	var collision = move_and_collide(globals.gravity*5)
+	var collision = move_and_collide(globals.gravity*2)
 	if collision:
 		#print(collision.collider.is_in_group("box"))
 		# to do  wywolac funkcje game over z main 
 		#var fajrant = load("res://Scripts/main.gd").new()
 		#fajrant.gameOver()
+		if collision.collider.is_in_group("boxwin"):
+			$".."._win()
 		if collision.collider.is_in_group("box"):
 			$".."._gameOver()
+		
 	pass
 

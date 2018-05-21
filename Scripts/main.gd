@@ -23,6 +23,11 @@ func _gameOver():
 	# zatrzymaj wszystkie obiekty, w sensie gra STOP 
 	get_tree().paused = true 
 	pass
+	
+func _win():
+	$CanvasLayer/WIN.visible = true;
+	get_tree().paused = true 
+	pass
 
 func _changeGravity():
 	var currentGravity = Physics2DServer.area_get_param(get_world_2d().space, Physics2DServer.AREA_PARAM_GRAVITY_VECTOR)
