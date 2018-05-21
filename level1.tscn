@@ -1,0 +1,1512 @@
+[gd_scene load_steps=60 format=2]
+
+[ext_resource path="res://bg.png" type="Texture" id=1]
+[ext_resource path="res://marioTileSet.tres" type="TileSet" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 65, 10 )
+
+[sub_resource type="RectangleShape2D" id=6]
+
+custom_solver_bias = 0.0
+extents = Vector2( 220, 10 )
+
+[sub_resource type="RectangleShape2D" id=7]
+
+custom_solver_bias = 0.0
+extents = Vector2( 85, 10 )
+
+[sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 150, 10 )
+
+[sub_resource type="RectangleShape2D" id=9]
+
+custom_solver_bias = 0.0
+extents = Vector2( 250, 10 )
+
+[sub_resource type="RectangleShape2D" id=10]
+
+custom_solver_bias = 0.0
+extents = Vector2( 200, 10 )
+
+[sub_resource type="RectangleShape2D" id=11]
+
+custom_solver_bias = 0.0
+extents = Vector2( 215, 10 )
+
+[sub_resource type="RectangleShape2D" id=12]
+
+custom_solver_bias = 0.0
+extents = Vector2( 105, 10 )
+
+[sub_resource type="RectangleShape2D" id=13]
+
+custom_solver_bias = 0.0
+extents = Vector2( 55, 10 )
+
+[sub_resource type="RectangleShape2D" id=14]
+
+custom_solver_bias = 0.0
+extents = Vector2( 25, 10 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 25, 10 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 130 )
+
+[sub_resource type="RectangleShape2D" id=15]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 100 )
+
+[sub_resource type="RectangleShape2D" id=16]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 100 )
+
+[sub_resource type="RectangleShape2D" id=17]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 150 )
+
+[sub_resource type="RectangleShape2D" id=18]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 100 )
+
+[sub_resource type="RectangleShape2D" id=19]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 12 )
+
+[sub_resource type="RectangleShape2D" id=20]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 125 )
+
+[sub_resource type="RectangleShape2D" id=21]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 50 )
+
+[sub_resource type="RectangleShape2D" id=22]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 50 )
+
+[sub_resource type="RectangleShape2D" id=23]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 25 )
+
+[sub_resource type="RectangleShape2D" id=24]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 50 )
+
+[sub_resource type="RectangleShape2D" id=25]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 30 )
+
+[sub_resource type="RectangleShape2D" id=26]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 100 )
+
+[sub_resource type="RectangleShape2D" id=27]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 80 )
+
+[sub_resource type="RectangleShape2D" id=4]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 70 )
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 45, 10 )
+
+[sub_resource type="RectangleShape2D" id=28]
+
+custom_solver_bias = 0.0
+extents = Vector2( 62, 10 )
+
+[sub_resource type="RectangleShape2D" id=29]
+
+custom_solver_bias = 0.0
+extents = Vector2( 70, 10 )
+
+[sub_resource type="RectangleShape2D" id=30]
+
+custom_solver_bias = 0.0
+extents = Vector2( 30, 10 )
+
+[sub_resource type="RectangleShape2D" id=31]
+
+custom_solver_bias = 0.0
+extents = Vector2( 70, 10 )
+
+[sub_resource type="RectangleShape2D" id=32]
+
+custom_solver_bias = 0.0
+extents = Vector2( 70, 10 )
+
+[sub_resource type="RectangleShape2D" id=33]
+
+custom_solver_bias = 0.0
+extents = Vector2( 80, 10 )
+
+[sub_resource type="RectangleShape2D" id=34]
+
+custom_solver_bias = 0.0
+extents = Vector2( 65, 10 )
+
+[sub_resource type="RectangleShape2D" id=35]
+
+custom_solver_bias = 0.0
+extents = Vector2( 50, 10 )
+
+[sub_resource type="RectangleShape2D" id=36]
+
+custom_solver_bias = 0.0
+extents = Vector2( 100, 10 )
+
+[sub_resource type="RectangleShape2D" id=37]
+
+custom_solver_bias = 0.0
+extents = Vector2( 25, 10 )
+
+[sub_resource type="RectangleShape2D" id=38]
+
+custom_solver_bias = 0.0
+extents = Vector2( 7, 10 )
+
+[sub_resource type="RectangleShape2D" id=39]
+
+custom_solver_bias = 0.0
+extents = Vector2( 35, 10 )
+
+[sub_resource type="RectangleShape2D" id=40]
+
+custom_solver_bias = 0.0
+extents = Vector2( 25, 10 )
+
+[sub_resource type="RectangleShape2D" id=41]
+
+custom_solver_bias = 0.0
+extents = Vector2( 25, 10 )
+
+[sub_resource type="RectangleShape2D" id=42]
+
+custom_solver_bias = 0.0
+extents = Vector2( 25, 10 )
+
+[sub_resource type="RectangleShape2D" id=43]
+
+custom_solver_bias = 0.0
+extents = Vector2( 90, 10 )
+
+[sub_resource type="RectangleShape2D" id=44]
+
+custom_solver_bias = 0.0
+extents = Vector2( 30, 10 )
+
+[sub_resource type="RectangleShape2D" id=45]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 10 )
+
+[sub_resource type="RectangleShape2D" id=46]
+
+custom_solver_bias = 0.0
+extents = Vector2( 335, 10 )
+
+[sub_resource type="RectangleShape2D" id=47]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=48]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=49]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=51]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=52]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=53]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=54]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=55]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=56]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=57]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 16 )
+
+[sub_resource type="RectangleShape2D" id=50]
+
+custom_solver_bias = 0.0
+extents = Vector2( 9, 15 )
+
+[node name="Node2D" type="Node2D" index="0"]
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+modulate = Color( 0.371094, 0.371094, 0.371094, 1 )
+position = Vector2( 1218.02, 354.601 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 2450, 700 )
+_sections_unfolded = [ "Region", "Visibility" ]
+
+[node name="TileMap" type="TileMap" parent="." index="1"]
+
+mode = 0
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 0, 12, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0, 16, 0, 0, 17, 0, 0, 18, 0, 0, 19, 0, 0, 20, 0, 0, 21, 0, 0, 22, 0, 0, 23, 0, 0, 24, 0, 0, 25, 0, 0, 26, 0, 0, 27, 0, 0, 28, 0, 0, 29, 0, 0, 30, 0, 0, 31, 0, 0, 32, 0, 0, 33, 0, 0, 34, 0, 0, 42, 0, 0, 43, 0, 0, 44, 0, 0, 45, 0, 0, 46, 0, 0, 47, 0, 0, 48, 0, 0, 49, 0, 0, 63, 0, 0, 64, 0, 0, 65, 0, 0, 66, 0, 0, 67, 0, 0, 68, 0, 0, 69, 0, 0, 70, 0, 0, 71, 0, 0, 72, 0, 0, 73, 0, 0, 74, 0, 0, 86, 0, 0, 102, 0, 0, 103, 0, 0, 104, 0, 0, 105, 0, 0, 106, 0, 0, 107, 0, 0, 108, 0, 0, 109, 0, 0, 110, 0, 0, 111, 0, 0, 112, 0, 0, 113, 0, 0, 114, 0, 0, 115, 0, 0, 116, 0, 0, 117, 0, 0, 118, 0, 0, 119, 0, 0, 120, 0, 0, 121, 0, 0, 122, 0, 0, 123, 0, 0, 124, 0, 0, 125, 0, 0, 151, 0, 0, 65536, 0, 0, 65550, 22, 0, 65578, 22, 0, 65622, 22, 0, 65653, 22, 0, 65687, 0, 0, 131072, 0, 0, 131086, 22, 0, 131114, 22, 0, 131158, 22, 0, 131189, 22, 0, 131223, 0, 0, 196608, 0, 0, 196622, 22, 0, 196642, 22, 0, 196650, 22, 0, 196694, 22, 0, 196725, 22, 0, 196759, 0, 0, 262144, 0, 0, 262158, 22, 0, 262178, 22, 0, 262186, 22, 0, 262230, 22, 0, 262261, 22, 0, 262295, 0, 0, 327680, 0, 0, 327683, 11, 0, 327694, 1, 0, 327714, 22, 0, 327722, 22, 0, 327726, 22, 0, 327749, 22, 0, 327766, 22, 0, 327797, 22, 0, 327831, 0, 0, 393216, 0, 0, 393217, 12, 0, 393218, 12, 0, 393220, 1, 0, 393221, 1, 0, 393230, 1, 0, 393250, 22, 0, 393262, 22, 0, 393285, 22, 0, 393302, 22, 0, 393333, 22, 0, 393367, 0, 0, 458752, 0, 0, 458753, 12, 0, 458754, 12, 0, 458766, 1, 0, 458786, 22, 0, 458798, 22, 0, 458821, 22, 0, 458838, 22, 0, 458856, 5, 0, 458857, 5, 0, 458858, 5, 0, 458859, 5, 0, 458860, 5, 0, 458861, 5, 0, 458862, 5, 0, 458863, 5, 0, 458864, 5, 0, 458865, 5, 0, 458869, 22, 0, 458903, 0, 0, 524288, 0, 0, 524289, 12, 0, 524290, 12, 0, 524302, 22, 0, 524309, 1, 0, 524322, 22, 0, 524334, 22, 0, 524357, 22, 0, 524374, 22, 0, 524392, 5, 0, 524405, 22, 0, 524439, 0, 0, 589824, 0, 0, 589838, 22, 0, 589858, 0, 0, 589859, 0, 0, 589860, 0, 0, 589861, 0, 0, 589862, 0, 0, 589863, 0, 0, 589864, 0, 0, 589865, 0, 0, 589866, 0, 0, 589867, 0, 0, 589868, 0, 0, 589869, 0, 0, 589870, 22, 0, 589893, 22, 0, 589910, 22, 0, 589928, 5, 0, 589941, 22, 0, 589975, 0, 0, 655360, 0, 0, 655374, 22, 0, 655399, 22, 0, 655406, 22, 0, 655411, 18, 0, 655414, 18, 0, 655417, 18, 0, 655429, 22, 0, 655446, 22, 0, 655464, 5, 0, 655477, 22, 0, 655511, 0, 0, 720896, 0, 0, 720910, 22, 0, 720942, 22, 0, 720958, 22, 0, 720965, 22, 0, 720982, 22, 0, 721000, 5, 0, 721013, 22, 0, 721047, 0, 0, 786432, 0, 0, 786438, 22, 0, 786446, 22, 0, 786478, 22, 0, 786494, 22, 0, 786501, 22, 0, 786518, 22, 0, 786536, 5, 0, 786549, 22, 0, 786583, 0, 0, 851968, 0, 0, 851974, 22, 0, 851982, 22, 0, 852014, 22, 0, 852030, 22, 0, 852037, 22, 0, 852072, 5, 0, 852083, 5, 0, 852084, 5, 0, 852085, 22, 0, 852086, 5, 0, 852087, 5, 0, 852088, 5, 0, 852110, 14, 0, 852119, 0, 0, 917504, 0, 0, 917510, 22, 0, 917550, 22, 0, 917566, 22, 0, 917573, 22, 0, 917608, 5, 0, 917651, 2, 0, 917652, 2, 0, 917653, 2, 0, 917654, 2, 0, 917655, 0, 0, 983040, 0, 0, 983046, 22, 0, 983072, 17, 0, 983075, 17, 0, 983078, 17, 0, 983086, 22, 0, 983102, 22, 0, 983109, 22, 0, 983144, 5, 0, 983191, 0, 0, 1048576, 0, 0, 1048582, 22, 0, 1048609, 22, 0, 1048615, 22, 0, 1048622, 22, 0, 1048638, 22, 0, 1048645, 22, 0, 1048680, 5, 0, 1048727, 0, 0, 1114112, 0, 0, 1114118, 22, 0, 1114145, 22, 0, 1114151, 22, 0, 1114158, 22, 0, 1114174, 22, 0, 1114181, 22, 0, 1114216, 5, 0, 1114263, 0, 0, 1179648, 0, 0, 1179654, 22, 0, 1179681, 22, 0, 1179687, 22, 0, 1179694, 22, 0, 1179710, 22, 0, 1179717, 22, 0, 1179752, 5, 0, 1179799, 0, 0, 1245184, 0, 0, 1245190, 22, 0, 1245217, 22, 0, 1245223, 22, 0, 1245230, 22, 0, 1245246, 22, 0, 1245253, 22, 0, 1245288, 5, 0, 1245307, 1, 0, 1245318, 5, 0, 1245319, 5, 0, 1245320, 5, 0, 1245321, 5, 0, 1245322, 5, 0, 1245323, 5, 0, 1245328, 2, 0, 1245329, 2, 0, 1245330, 2, 0, 1245335, 0, 0, 1310720, 0, 0, 1310726, 22, 0, 1310753, 22, 0, 1310759, 22, 0, 1310766, 18, 0, 1310769, 18, 0, 1310772, 18, 0, 1310775, 18, 0, 1310782, 22, 0, 1310789, 22, 0, 1310824, 5, 0, 1310854, 5, 0, 1310871, 0, 0, 1376256, 0, 0, 1376262, 22, 0, 1376276, 4, 0, 1376277, 4, 0, 1376278, 22, 0, 1376289, 22, 0, 1376295, 22, 0, 1376318, 22, 0, 1376325, 22, 0, 1376336, 4, 0, 1376337, 4, 0, 1376338, 4, 0, 1376339, 4, 0, 1376340, 4, 0, 1376341, 4, 0, 1376342, 4, 0, 1376343, 4, 0, 1376344, 4, 0, 1376345, 4, 0, 1376346, 4, 0, 1376347, 4, 0, 1376348, 4, 0, 1376360, 5, 0, 1376390, 5, 0, 1376407, 0, 0, 1441792, 0, 0, 1441798, 22, 0, 1441809, 11, 0, 1441811, 11, 0, 1441814, 22, 0, 1441818, 11, 0, 1441822, 11, 0, 1441825, 22, 0, 1441831, 22, 0, 1441854, 22, 0, 1441861, 22, 0, 1441896, 5, 0, 1441926, 5, 0, 1441943, 0, 0, 1507328, 0, 0, 1507334, 22, 0, 1507350, 22, 0, 1507361, 22, 0, 1507367, 22, 0, 1507390, 22, 0, 1507397, 22, 0, 1507440, 4, 0, 1507441, 4, 0, 1507442, 4, 0, 1507443, 4, 0, 1507444, 4, 0, 1507445, 4, 0, 1507446, 4, 0, 1507447, 4, 0, 1507448, 4, 0, 1507453, 4, 0, 1507454, 4, 0, 1507455, 4, 0, 1507456, 4, 0, 1507457, 4, 0, 1507458, 4, 0, 1507459, 4, 0, 1507460, 4, 0, 1507461, 4, 0, 1507462, 5, 0, 1507468, 4, 0, 1507469, 4, 0, 1507470, 4, 0, 1507471, 4, 0, 1507475, 4, 0, 1507476, 4, 0, 1507477, 4, 0, 1507478, 4, 0, 1507479, 0, 0, 1572864, 22, 0, 1572870, 0, 0, 1572871, 0, 0, 1572872, 0, 0, 1572873, 0, 0, 1572874, 0, 0, 1572875, 0, 0, 1572876, 0, 0, 1572877, 0, 0, 1572878, 0, 0, 1572879, 0, 0, 1572880, 0, 0, 1572881, 0, 0, 1572882, 0, 0, 1572883, 0, 0, 1572884, 0, 0, 1572885, 0, 0, 1572886, 0, 0, 1572887, 0, 0, 1572888, 0, 0, 1572889, 0, 0, 1572890, 0, 0, 1572891, 0, 0, 1572892, 0, 0, 1572893, 0, 0, 1572894, 0, 0, 1572895, 0, 0, 1572896, 0, 0, 1572897, 22, 0, 1572903, 0, 0, 1572904, 0, 0, 1572905, 0, 0, 1572906, 0, 0, 1572907, 0, 0, 1572908, 0, 0, 1572909, 0, 0, 1572910, 0, 0, 1572911, 0, 0, 1572912, 0, 0, 1572913, 0, 0, 1572914, 0, 0, 1572915, 0, 0, 1572916, 0, 0, 1572917, 0, 0, 1572918, 0, 0, 1572919, 0, 0, 1572920, 0, 0, 1572921, 0, 0, 1572922, 0, 0, 1572923, 0, 0, 1572924, 0, 0, 1572925, 0, 0, 1572968, 0, 0, 1572969, 0, 0, 1572970, 0, 0, 1572971, 0, 0, 1572972, 0, 0, 1572973, 0, 0, 1572974, 0, 0, 1572975, 0, 0, 1572985, 0, 0, 1572986, 0, 0, 1572987, 0, 0, 1572988, 0, 0, 1572998, 5, 0, 1573015, 0, 0, 1638400, 22, 0, 1638406, 0, 0, 1638426, 5, 0, 1638430, 5, 0, 1638450, 5, 0, 1638461, 5, 0, 1638524, 5, 0, 1638551, 0, 0, 1703936, 22, 0, 1703942, 0, 0, 1703962, 5, 0, 1703966, 5, 0, 1703986, 5, 0, 1703997, 5, 0, 1704060, 5, 0, 1704087, 0, 0, 1769472, 22, 0, 1769478, 0, 0, 1769498, 5, 0, 1769502, 5, 0, 1769522, 5, 0, 1769533, 5, 0, 1769596, 5, 0, 1769623, 0, 0, 1835008, 22, 0, 1835014, 0, 0, 1835058, 5, 0, 1835069, 5, 0, 1835124, 5, 0, 1835125, 5, 0, 1835126, 5, 0, 1835127, 5, 0, 1835128, 5, 0, 1835129, 5, 0, 1835130, 5, 0, 1835131, 5, 0, 1835132, 5, 0, 1835159, 0, 0, 1900544, 22, 0, 1900550, 0, 0, 1900594, 5, 0, 1900688, 5, 0, 1900689, 5, 0, 1900690, 5, 0, 1900691, 5, 0, 1900692, 5, 0, 1900693, 5, 0, 1900694, 5, 0, 1900695, 0, 0, 1966080, 22, 0, 1966086, 0, 0, 1966130, 5, 0, 1966151, 3, 0, 1966152, 3, 0, 1966153, 3, 0, 1966154, 3, 0, 1966155, 3, 0, 1966156, 3, 0, 1966157, 3, 0, 1966158, 3, 0, 1966159, 3, 0, 1966160, 3, 0, 1966188, 5, 0, 1966231, 0, 0, 2031616, 22, 0, 2031622, 0, 0, 2031666, 5, 0, 2031724, 5, 0, 2031767, 0, 0, 2097152, 22, 0, 2097158, 0, 0, 2097260, 5, 0, 2097303, 0, 0, 2162688, 22, 0, 2162694, 0, 0, 2162796, 5, 0, 2162813, 5, 0, 2162814, 5, 0, 2162815, 5, 0, 2162816, 5, 0, 2162817, 5, 0, 2162818, 5, 0, 2162819, 5, 0, 2162820, 5, 0, 2162821, 5, 0, 2162839, 0, 0, 2228224, 22, 0, 2228230, 0, 0, 2228332, 5, 0, 2228375, 0, 0, 2293760, 7, 0, 2293761, 12, 0, 2293762, 12, 0, 2293763, 12, 0, 2293764, 12, 0, 2293765, 12, 0, 2293766, 0, 0, 2293868, 5, 0, 2293911, 0, 0, 2359296, 0, 0, 2359302, 0, 0, 2359404, 5, 0, 2359447, 0, 0, 2424832, 0, 0, 2424833, 6, 0, 2424834, 6, 0, 2424835, 6, 0, 2424836, 6, 0, 2424837, 6, 0, 2424838, 0, 0, 2424883, 5, 0, 2424884, 5, 0, 2424885, 5, 0, 2424886, 5, 0, 2424887, 5, 0, 2424888, 5, 0, 2424889, 5, 0, 2424890, 5, 0, 2424891, 5, 0, 2424892, 5, 0, 2424893, 5, 0, 2424924, 2, 0, 2424925, 2, 0, 2424926, 2, 0, 2424927, 2, 0, 2424928, 2, 0, 2424929, 2, 0, 2424930, 2, 0, 2424931, 2, 0, 2424932, 2, 0, 2424933, 2, 0, 2424934, 2, 0, 2424935, 2, 0, 2424940, 5, 0, 2424941, 5, 0, 2424942, 5, 0, 2424943, 5, 0, 2424983, 0, 0, 2490368, 0, 0, 2490369, 0, 0, 2490370, 7, 0, 2490371, 12, 0, 2490372, 12, 0, 2490373, 8, 0, 2490519, 0, 0, 2555904, 0, 0, 2555905, 0, 0, 2555906, 7, 0, 2555907, 12, 0, 2555908, 12, 0, 2555909, 8, 0, 2556055, 0, 0, 2621440, 0, 0, 2621441, 0, 0, 2621442, 7, 0, 2621443, 12, 0, 2621444, 12, 0, 2621445, 8, 0, 2621468, 15, 0, 2621591, 0, 0, 2686976, 0, 0, 2686977, 0, 0, 2686978, 7, 0, 2686979, 12, 0, 2686980, 12, 0, 2686981, 8, 0, 2687127, 0, 0, 2752512, 0, 0, 2752513, 0, 0, 2752514, 0, 0, 2752515, 0, 0, 2752516, 0, 0, 2752517, 0, 0, 2752518, 4, 0, 2752519, 4, 0, 2752520, 4, 0, 2752521, 4, 0, 2752522, 4, 0, 2752523, 4, 0, 2752524, 4, 0, 2752525, 23, 0, 2752526, 23, 0, 2752527, 23, 0, 2752528, 23, 0, 2752529, 23, 0, 2752530, 23, 0, 2752531, 23, 0, 2752532, 23, 0, 2752533, 4, 0, 2752534, 4, 0, 2752535, 4, 0, 2752536, 4, 0, 2752537, 4, 0, 2752538, 4, 0, 2752539, 4, 0, 2752540, 21, 0, 2752542, 4, 0, 2752543, 4, 0, 2752544, 4, 0, 2752545, 4, 0, 2752546, 4, 0, 2752547, 4, 0, 2752548, 24, 0, 2752549, 24, 0, 2752550, 24, 0, 2752551, 24, 0, 2752552, 24, 0, 2752553, 24, 0, 2752554, 24, 0, 2752555, 24, 0, 2752556, 24, 0, 2752557, 24, 0, 2752558, 24, 0, 2752559, 24, 0, 2752560, 24, 0, 2752561, 24, 0, 2752562, 24, 0, 2752563, 24, 0, 2752564, 24, 0, 2752565, 24, 0, 2752566, 24, 0, 2752567, 24, 0, 2752568, 23, 0, 2752569, 23, 0, 2752570, 23, 0, 2752571, 23, 0, 2752572, 23, 0, 2752573, 23, 0, 2752574, 23, 0, 2752575, 4, 0, 2752576, 4, 0, 2752577, 4, 0, 2752578, 4, 0, 2752579, 23, 0, 2752580, 23, 0, 2752581, 23, 0, 2752582, 23, 0, 2752583, 23, 0, 2752584, 23, 0, 2752585, 23, 0, 2752586, 23, 0, 2752587, 23, 0, 2752588, 23, 0, 2752589, 23, 0, 2752590, 23, 0, 2752591, 23, 0, 2752592, 23, 0, 2752593, 23, 0, 2752594, 23, 0, 2752595, 23, 0, 2752596, 23, 0, 2752597, 23, 0, 2752598, 4, 0, 2752599, 17, 0, 2752602, 17, 0, 2752605, 17, 0, 2752608, 23, 0, 2752609, 23, 0, 2752610, 23, 0, 2752611, 17, 0, 2752614, 17, 0, 2752617, 17, 0, 2752620, 23, 0, 2752621, 23, 0, 2752622, 23, 0, 2752623, 23, 0, 2752624, 23, 0, 2752625, 23, 0, 2752626, 23, 0, 2752627, 23, 0, 2752628, 23, 0, 2752629, 23, 0, 2752630, 23, 0, 2752631, 23, 0, 2752632, 23, 0, 2752633, 23, 0, 2752634, 23, 0, 2752635, 23, 0, 2752636, 23, 0, 2752637, 23, 0, 2752638, 23, 0, 2752639, 23, 0, 2752640, 23, 0, 2752641, 23, 0, 2752642, 23, 0, 2752643, 23, 0, 2752644, 23, 0, 2752645, 23, 0, 2752646, 23, 0, 2752647, 23, 0, 2752648, 23, 0, 2752649, 23, 0, 2752650, 23, 0, 2752651, 4, 0, 2752652, 4, 0, 2752653, 4, 0, 2752654, 4, 0, 2752655, 4, 0, 2752656, 4, 0, 2752657, 4, 0, 2752658, 4, 0, 2752659, 4, 0, 2752660, 4, 0, 2752661, 4, 0, 2752662, 4, 0, 2752663, 0, 0, 2818048, 0, 0, 2818049, 0, 0, 2818050, 0, 0, 2818051, 0, 0, 2818052, 0, 0, 2818053, 0, 0, 2818054, 0, 0, 2818055, 0, 0, 2818056, 0, 0, 2818057, 0, 0, 2818058, 0, 0, 2818059, 0, 0, 2818060, 0, 0, 2818069, 0, 0, 2818070, 0, 0, 2818071, 0, 0, 2818072, 0, 0, 2818073, 0, 0, 2818074, 0, 0, 2818075, 0, 0, 2818076, 21, 0, 2818078, 0, 0, 2818079, 0, 0, 2818080, 0, 0, 2818081, 0, 0, 2818082, 0, 0, 2818083, 0, 0, 2818111, 0, 0, 2818112, 0, 0, 2818113, 0, 0, 2818114, 0, 0, 2818134, 0, 0, 2818136, 22, 0, 2818139, 22, 0, 2818142, 22, 0, 2818148, 22, 0, 2818151, 22, 0, 2818154, 22, 0, 2818187, 0, 0, 2818188, 0, 0, 2818189, 0, 0, 2818190, 0, 0, 2818191, 0, 0, 2818192, 0, 0, 2818193, 0, 0, 2818194, 0, 0, 2818195, 0, 0, 2818196, 0, 0, 2818197, 0, 0, 2818198, 0, 0, 2818199, 0, 0 )
+_sections_unfolded = [ "Cell", "Transform" ]
+
+[node name="Rotated 180" type="TileMap" parent="." index="2"]
+
+rotation = 3.14159
+mode = 0
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( -2293767, 7, 0, -2097199, 16, 0, -2097196, 16, 0, -2097193, 16, 0, -2097190, 16, 0, -2097187, 16, 0, -2097184, 16, 0, -2031650, 22, 0, -1966114, 22, 0, -1900578, 22, 0, -1835042, 22, 0, -1769506, 22, 0, -1703997, 24, 0, -1703996, 24, 0, -1703995, 24, 0, -1703994, 24, 0, -1703993, 24, 0, -1703992, 24, 0, -1703991, 24, 0, -1703990, 24, 0, -1703989, 24, 0, -1703988, 24, 0, -1703970, 22, 0, -1703966, 24, 0, -1703965, 24, 0, -1703964, 24, 0, -1638434, 22, 0, -1114139, 11, 0, -1114134, 11, 0, -983067, 2, 0, -983066, 2, 0, -983065, 2, 0, -983064, 2, 0, -983063, 2, 0, -983062, 2, 0, -983061, 2, 0, -983060, 2, 0, -983059, 2, 0, -983058, 2, 0, -917630, 15, 0, -917627, 15, 0, -917528, 2, 0, -851992, 2, 0, -786558, 21, 0, -786555, 21, 0, -786456, 2, 0, -721022, 21, 0, -721019, 21, 0, -720920, 2, 0, -655486, 21, 0, -655483, 21, 0, -655384, 2, 0, -589950, 21, 0, -589947, 21, 0, -589848, 2, 0, -589828, 22, 0, -524414, 21, 0, -524411, 21, 0, -524312, 2, 0, -524292, 22, 0, -458878, 21, 0, -458875, 21, 0, -458778, 2, 0, -458777, 2, 0, -458776, 2, 0, -458763, 14, 0, -393342, 21, 0, -393339, 21, 0, -327806, 21, 0, -327803, 21, 0, -262270, 21, 0, -262267, 21, 0, -196734, 21, 0, -196731, 21, 0, -131198, 21, 0, -131195, 21, 0, -131101, 11, 0, -131094, 11, 0, -131083, 11, 0, -131078, 11, 0, -65687, 23, 0, -65686, 23, 0, -65685, 23, 0, -65684, 23, 0, -65683, 23, 0, -65682, 23, 0, -65681, 23, 0, -65680, 23, 0, -65679, 23, 0, -65678, 23, 0, -65677, 23, 0, -65676, 23, 0, -65675, 23, 0, -65674, 23, 0, -65673, 23, 0, -65672, 23, 0, -65671, 23, 0, -65670, 23, 0, -65669, 23, 0, -65668, 23, 0, -65667, 23, 0, -65666, 23, 0, -65665, 23, 0, -65664, 23, 0, -65663, 23, 0, -65662, 21, 0, -65659, 21, 0, -65638, 24, 0, -65637, 24, 0, -65636, 24, 0, -65635, 24, 0, -65634, 24, 0, -65633, 24, 0, -65632, 24, 0, -65631, 24, 0, -65630, 24, 0, -65629, 24, 0, -65628, 24, 0, -65627, 24, 0, -65626, 24, 0, -65625, 24, 0, -65624, 24, 0, -65622, 24, 0, -65621, 24, 0, -65620, 24, 0, -65619, 24, 0, -65618, 24, 0, -65617, 24, 0, -65616, 24, 0, -65615, 24, 0, -65614, 24, 0, -65613, 24, 0, -65612, 24, 0, -65599, 23, 0, -65598, 23, 0, -65597, 23, 0, -65596, 23, 0, -65595, 23, 0, -65594, 23, 0, -65593, 23, 0, -65592, 23, 0, -65591, 23, 0, -65590, 23, 0, -65589, 23, 0, -65588, 23, 0, -65587, 23, 0, -65578, 23, 0, -65577, 23, 0, -65576, 23, 0, -65575, 23, 0, -65574, 23, 0, -65573, 23, 0, -65572, 23, 0, -126, 21, 0, -123, 21, 0 )
+_sections_unfolded = [ "Cell", "Transform" ]
+
+[node name="rotated 90" type="TileMap" parent="." index="3"]
+
+position = Vector2( 0, -0.323547 )
+rotation = 1.5708
+mode = 0
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( -9895912, 22, 0, -9830376, 22, 0, -9764840, 22, 0, -9699304, 22, 0, -9633768, 22, 0, -9568232, 22, 0, -9502696, 22, 0, -9437165, 22, 0, -9437160, 22, 0, -9371636, 22, 0, -9371629, 22, 0, -9371624, 22, 0, -9306093, 22, 0, -9306088, 22, 0, -9240557, 22, 0, -9240552, 22, 0, -8781800, 22, 0, -8716264, 22, 0, -8650728, 22, 0, -8585192, 22, 0, -8519656, 22, 0, -8454120, 22, 0, -8388584, 22, 0, -8323048, 22, 0, -8257512, 22, 0, -8191977, 22, 0, -8126441, 22, 0, -8060905, 22, 0, -7995369, 22, 0, -7929842, 22, 0, -7929832, 22, 0, -7864306, 22, 0, -7864296, 22, 0, -7798770, 22, 0, -7798760, 22, 0, -7733234, 22, 0, -7733224, 22, 0, -7667698, 22, 0, -7667688, 22, 0, -7602162, 22, 0, -7602152, 22, 0, -7536626, 22, 0, -7536616, 22, 0, -7471098, 22, 0, -7471090, 22, 0, -7471080, 22, 0, -7405562, 22, 0, -7405554, 22, 0, -7405544, 22, 0, -7340026, 22, 0, -7340009, 22, 0, -7274490, 22, 0, -7274473, 22, 0, -7208954, 22, 0, -7208937, 22, 0, -7143418, 22, 0, -7143401, 22, 0, -7077882, 22, 0, -7077865, 22, 0, -7012346, 22, 0, -7012329, 22, 0, -6946810, 22, 0, -6946793, 22, 0, -6881274, 22, 0, -6881257, 22, 0, -6815732, 22, 0, -6815720, 22, 0, -6750196, 22, 0, -6750184, 22, 0, -6684660, 22, 0, -6684648, 22, 0, -6619124, 22, 0, -6619112, 22, 0, -6553588, 22, 0, -6553576, 22, 0, -6488052, 22, 0, -6488040, 22, 0, -6422516, 22, 0, -6422504, 22, 0, -6356980, 22, 0, -6356968, 22, 0, -6291432, 22, 0, -6225896, 22, 0, -6160360, 22, 0, -6094824, 22, 0, -6029300, 22, 0, -6029288, 22, 0, -5963764, 22, 0, -5963752, 22, 0, -5898228, 22, 0, -5898216, 22, 0, -5832692, 22, 0, -5832680, 22, 0, -5767156, 22, 0, -5767144, 22, 0, -5701608, 22, 0, -5636072, 22, 0, -5570536, 22, 0, -5505000, 22, 0, -5439464, 22, 0, -5373928, 22, 0, -5308392, 22, 0, -5242856, 22, 0, -5177320, 22, 0, -5111784, 22, 0, -5046248, 22, 0, -4980712, 22, 0, -4915176, 22, 0, -4849640, 22, 0, -4784104, 22, 0, -4718568, 22, 0, -4653032, 22, 0, -4587496, 22, 0, -4521960, 22, 0, -4456424, 22, 0, -4390888, 22, 0, -4325352, 22, 0, -4259816, 22, 0, -4194280, 22, 0, -4128744, 22, 0, -4063217, 22, 0, -3997681, 22, 0, -3932145, 22, 0, -3866609, 22, 0, -3801073, 22, 0, -3735537, 22, 0, -3670001, 22, 0, -3604465, 22, 0, -3538929, 22, 0, -3473393, 22, 0, -3407857, 22, 0, -3342321, 22, 0, -2555888, 22, 0, -2490352, 22, 0, -2424816, 22, 0, -2359280, 22, 0, -2293744, 22, 0, -1703930, 22, 0, -1638394, 22, 0, -1572858, 22, 0, -1507319, 22, 0, -1441783, 22, 0, -1376247, 22, 0, -1310711, 22, 0, -1179642, 22, 0, -1114101, 2, 0, -1048565, 2, 0, -917492, 22, 0, -851956, 22, 0, -786420, 22, 0, -393209, 22, 0, -327673, 22, 0, -262137, 22, 0, -196599, 22, 0, -131063, 22, 0 )
+_sections_unfolded = [ "Cell", "Material", "Transform" ]
+
+[node name="FailConditions" type="Node" parent="." index="4"]
+
+editor/display_folded = true
+
+[node name="lava1" type="Node" parent="FailConditions" index="0"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava1" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava1/Area2D" index="0"]
+
+position = Vector2( 3.23535, 2.9118 )
+shape = SubResource( 1 )
+
+[node name="lava3" type="Node" parent="FailConditions" index="1"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava3" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava3/Area2D" index="0"]
+
+position = Vector2( 519.144, 0.706482 )
+shape = SubResource( 6 )
+
+[node name="lava4" type="Node" parent="FailConditions" index="2"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava4" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava4/Area2D" index="0"]
+
+position = Vector2( 626.503, -278.853 )
+shape = SubResource( 7 )
+
+[node name="lava5" type="Node" parent="FailConditions" index="3"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava5" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava5/Area2D" index="0"]
+
+position = Vector2( 954.233, 3.76373 )
+shape = SubResource( 8 )
+
+[node name="lava7" type="Node" parent="FailConditions" index="4"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava7" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava7/Area2D" index="0"]
+
+position = Vector2( 1706.25, 1.36884 )
+shape = SubResource( 9 )
+
+[node name="lava8" type="Node" parent="FailConditions" index="5"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava8" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava8/Area2D" index="0"]
+
+position = Vector2( 1940.9, -673.701 )
+shape = SubResource( 10 )
+
+[node name="lava9" type="Node" parent="FailConditions" index="6"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava9" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava9/Area2D" index="0"]
+
+position = Vector2( 1149.51, -679.84 )
+shape = SubResource( 11 )
+
+[node name="lava10" type="Node" parent="FailConditions" index="7"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava10" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava10/Area2D" index="0"]
+
+position = Vector2( 633.946, -680.933 )
+shape = SubResource( 12 )
+
+[node name="lava11" type="Node" parent="FailConditions" index="8"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava11" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava11/Area2D" index="0"]
+
+position = Vector2( 346.984, -680.031 )
+shape = SubResource( 13 )
+
+[node name="lava6" type="Node" parent="FailConditions" index="9"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava6" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava6/Area2D" index="0"]
+
+position = Vector2( 1289.92, 4.42712 )
+shape = SubResource( 14 )
+
+[node name="lava2" type="Node" parent="FailConditions" index="10"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/lava2" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/lava2/Area2D" index="0"]
+
+position = Vector2( 186.324, -279.09 )
+shape = SubResource( 2 )
+
+[node name="spike1" type="Node" parent="FailConditions" index="11"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike1" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike1/Area2D" index="0"]
+
+position = Vector2( 266.605, -306.032 )
+shape = SubResource( 3 )
+
+[node name="spike14" type="Node" parent="FailConditions" index="12"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike14" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike14/Area2D" index="0"]
+
+position = Vector2( 1610.53, -574.957 )
+shape = SubResource( 15 )
+
+[node name="spike17" type="Node" parent="FailConditions" index="13"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike17" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike17/Area2D" index="0"]
+
+position = Vector2( 1114.29, -586.235 )
+shape = SubResource( 16 )
+
+[node name="spike18" type="Node" parent="FailConditions" index="14"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike18" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike18/Area2D" index="0"]
+
+position = Vector2( 842.289, -458.858 )
+shape = SubResource( 17 )
+
+[node name="spike19" type="Node" parent="FailConditions" index="15"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike19" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike19/Area2D" index="0"]
+
+position = Vector2( 730.834, -415.072 )
+shape = SubResource( 18 )
+
+[node name="spike35" type="Node" parent="FailConditions" index="16"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike35" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike35/Area2D" index="0"]
+
+position = Vector2( 363.29, -524.273 )
+shape = SubResource( 19 )
+
+[node name="spike21" type="Node" parent="FailConditions" index="17"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike21" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike21/Area2D" index="0"]
+
+position = Vector2( 475.079, -485.934 )
+shape = SubResource( 20 )
+
+[node name="spike22" type="Node" parent="FailConditions" index="18"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike22" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike22/Area2D" index="0"]
+
+position = Vector2( 410.733, -643.134 )
+shape = SubResource( 21 )
+
+[node name="spike23" type="Node" parent="FailConditions" index="19"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike23" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike23/Area2D" index="0"]
+
+position = Vector2( 282.856, -590.191 )
+shape = SubResource( 22 )
+
+[node name="spike27" type="Node" parent="FailConditions" index="20"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike27" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike27/Area2D" index="0"]
+
+position = Vector2( 89.8794, -329.165 )
+shape = SubResource( 23 )
+
+[node name="spike28" type="Node" parent="FailConditions" index="21"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike28" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike28/Area2D" index="0"]
+
+position = Vector2( -37.2915, -517.349 )
+shape = SubResource( 24 )
+
+[node name="spike29" type="Node" parent="FailConditions" index="22"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike29" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike29/Area2D" index="0"]
+
+position = Vector2( -36.4971, -641.401 )
+shape = SubResource( 25 )
+
+[node name="spike31" type="Node" parent="FailConditions" index="23"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike31" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike31/Area2D" index="0"]
+
+position = Vector2( -164.182, -399.331 )
+shape = SubResource( 26 )
+
+[node name="spike30" type="Node" parent="FailConditions" index="24"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike30" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike30/Area2D" index="0"]
+
+position = Vector2( -261.065, -216.939 )
+shape = SubResource( 27 )
+
+[node name="spike3" type="Node" parent="FailConditions" index="25"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike3" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike3/Area2D" index="0"]
+
+position = Vector2( 362.333, -368.395 )
+shape = SubResource( 4 )
+
+[node name="spike2" type="Node" parent="FailConditions" index="26"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike2" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike2/Area2D" index="0"]
+
+position = Vector2( 312.504, -425.394 )
+shape = SubResource( 5 )
+
+[node name="spike5" type="Node" parent="FailConditions" index="27"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike5" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike5/Area2D" index="0"]
+
+position = Vector2( 1458.39, -313.776 )
+shape = SubResource( 28 )
+
+[node name="spike6" type="Node" parent="FailConditions" index="28"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike6" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike6/Area2D" index="0"]
+
+position = Vector2( 1593.95, -297.276 )
+shape = SubResource( 29 )
+
+[node name="spike7" type="Node" parent="FailConditions" index="29"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike7" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike7/Area2D" index="0"]
+
+position = Vector2( 1698.34, -313.286 )
+shape = SubResource( 30 )
+
+[node name="spike8" type="Node" parent="FailConditions" index="30"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike8" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike8/Area2D" index="0"]
+
+position = Vector2( 1802.03, -299.213 )
+shape = SubResource( 31 )
+
+[node name="spike12" type="Node" parent="FailConditions" index="31"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike12" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike12/Area2D" index="0"]
+
+position = Vector2( 1592.18, -458.432 )
+shape = SubResource( 32 )
+
+[node name="spike13" type="Node" parent="FailConditions" index="32"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike13" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike13/Area2D" index="0"]
+
+position = Vector2( 1474.6, -585.937 )
+shape = SubResource( 33 )
+
+[node name="spike15" type="Node" parent="FailConditions" index="33"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike15" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike15/Area2D" index="0"]
+
+position = Vector2( 1330.07, -489.411 )
+shape = SubResource( 34 )
+
+[node name="spike16" type="Node" parent="FailConditions" index="34"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike16" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike16/Area2D" index="0"]
+
+position = Vector2( 1153.3, -490.602 )
+shape = SubResource( 35 )
+
+[node name="spike20" type="Node" parent="FailConditions" index="35"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike20" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike20/Area2D" index="0"]
+
+position = Vector2( 631.206, -442.546 )
+shape = SubResource( 36 )
+
+[node name="spike24" type="Node" parent="FailConditions" index="36"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike24" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike24/Area2D" index="0"]
+
+position = Vector2( 123.149, -587.072 )
+shape = SubResource( 37 )
+
+[node name="spike26" type="Node" parent="FailConditions" index="37"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike26" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike26/Area2D" index="0"]
+
+position = Vector2( 10.5846, -586.355 )
+shape = SubResource( 38 )
+
+[node name="spike25" type="Node" parent="FailConditions" index="38"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike25" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike25/Area2D" index="0"]
+
+position = Vector2( 69.0178, -537.243 )
+shape = SubResource( 39 )
+
+[node name="spike32" type="Node" parent="FailConditions" index="39"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike32" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike32/Area2D" index="0"]
+
+position = Vector2( -69.5006, -490.823 )
+shape = SubResource( 40 )
+
+[node name="spike33" type="Node" parent="FailConditions" index="40"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike33" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike33/Area2D" index="0"]
+
+position = Vector2( -197.137, -570.926 )
+shape = SubResource( 41 )
+
+[node name="spike34" type="Node" parent="FailConditions" index="41"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike34" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike34/Area2D" index="0"]
+
+position = Vector2( -231.467, -539.677 )
+shape = SubResource( 42 )
+
+[node name="spike9" type="Node" parent="FailConditions" index="42"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike9" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike9/Area2D" index="0"]
+
+position = Vector2( 2060.86, -298.889 )
+shape = SubResource( 43 )
+
+[node name="spike10" type="Node" parent="FailConditions" index="43"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike10" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike10/Area2D" index="0"]
+
+position = Vector2( 2002.3, -378.802 )
+shape = SubResource( 44 )
+
+[node name="spike11" type="Node" parent="FailConditions" index="44"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike11" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike11/Area2D" index="0"]
+
+position = Vector2( 2011.03, -489.127 )
+shape = SubResource( 45 )
+
+[node name="spike4" type="Node" parent="FailConditions" index="45"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/spike4" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/spike4/Area2D" index="0"]
+
+position = Vector2( 1056.72, -297.606 )
+shape = SubResource( 46 )
+
+[node name="cannon1" type="Node" parent="FailConditions" index="46"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon1" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon1/Area2D" index="0"]
+
+position = Vector2( 219.046, -321.654 )
+shape = SubResource( 47 )
+
+[node name="cannon3" type="Node" parent="FailConditions" index="47"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon3" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon3/Area2D" index="0"]
+
+position = Vector2( 153.958, -417.717 )
+shape = SubResource( 48 )
+
+[node name="cannon4" type="Node" parent="FailConditions" index="48"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon4" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon4/Area2D" index="0"]
+
+position = Vector2( 75.165, -417.19 )
+shape = SubResource( 49 )
+
+[node name="cannon5" type="Node" parent="FailConditions" index="49"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon5" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon5/Area2D" index="0"]
+
+position = Vector2( 186.077, -657.5 )
+shape = SubResource( 51 )
+
+[node name="cannon6" type="Node" parent="FailConditions" index="50"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon6" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon6/Area2D" index="0"]
+
+position = Vector2( 75.6051, -656.619 )
+shape = SubResource( 52 )
+
+[node name="cannon7" type="Node" parent="FailConditions" index="51"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon7" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon7/Area2D" index="0"]
+
+position = Vector2( 43.4148, -321.508 )
+shape = SubResource( 53 )
+
+[node name="cannon8" type="Node" parent="FailConditions" index="52"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon8" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon8/Area2D" index="0"]
+
+position = Vector2( 10.8455, -322.388 )
+shape = SubResource( 54 )
+
+[node name="cannon9" type="Node" parent="FailConditions" index="53"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon9" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon9/Area2D" index="0"]
+
+position = Vector2( -101.387, -656.884 )
+shape = SubResource( 55 )
+
+[node name="cannon10" type="Node" parent="FailConditions" index="54"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon10" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon10/Area2D" index="0"]
+
+position = Vector2( -181.05, -656.884 )
+shape = SubResource( 56 )
+
+[node name="cannon11" type="Node" parent="FailConditions" index="55"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon11" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon11/Area2D" index="0"]
+
+position = Vector2( -212.299, -593.506 )
+shape = SubResource( 57 )
+
+[node name="cannon2" type="Node" parent="FailConditions" index="56"]
+
+editor/display_folded = true
+
+[node name="Area2D" type="Area2D" parent="FailConditions/cannon2" index="0"]
+
+position = Vector2( 269, 690 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="colisionShape" type="CollisionShape2D" parent="FailConditions/cannon2/Area2D" index="0"]
+
+position = Vector2( 155.161, -323.604 )
+shape = SubResource( 50 )
+
+
